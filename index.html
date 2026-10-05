@@ -6,16 +6,14 @@
 
   <title>Reasonova.si — Premium AI Domain for Sale</title>
 
-  <meta
-    name="description"
-    content="Reasonova.si is a premium technology domain available for acquisition. A distinctive identity for AI reasoning, intelligent systems and next-generation technology."
-  >
+  <meta name="description"
+        content="Reasonova.si is a premium domain available for acquisition — built for AI reasoning, intelligent agents and next-generation technology.">
 
   <style>
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
 
     html {
@@ -23,15 +21,12 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Helvetica, Arial, sans-serif;
       background:
-        radial-gradient(circle at 20% 10%, rgba(92, 72, 255, 0.18), transparent 30%),
-        radial-gradient(circle at 80% 20%, rgba(0, 214, 255, 0.12), transparent 30%),
-        #070912;
-      color: #ffffff;
-      min-height: 100vh;
+        radial-gradient(circle at 50% 10%, #17213a 0%, #090d18 38%, #04060b 100%);
+      color: #f4f7ff;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
+      min-height: 100vh;
     }
 
     a {
@@ -39,204 +34,252 @@
       color: inherit;
     }
 
-    .wrap {
-      width: min(1180px, 92%);
+    .container {
+      width: min(1100px, 90%);
       margin: auto;
     }
 
-    /* NAVIGATION */
+    /* NAV */
 
-    .nav {
+    nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 28px 0;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
-    .brand {
+    .logo {
+      font-size: 20px;
       font-weight: 800;
       letter-spacing: 2px;
-      font-size: 18px;
     }
 
-    .pill {
-      border: 1px solid rgba(255,255,255,0.16);
-      background: rgba(255,255,255,0.05);
+    .sale-badge {
+      border: 1px solid rgba(255,255,255,.25);
       padding: 8px 14px;
-      border-radius: 999px;
+      border-radius: 30px;
       font-size: 12px;
       letter-spacing: 1.5px;
-      color: #bfc5d9;
+      color: #cfd7e8;
     }
 
     /* HERO */
 
     .hero {
-      min-height: 72vh;
+      min-height: 78vh;
       display: flex;
-      align-items: center;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       text-align: center;
-      padding: 80px 0 60px;
-    }
-
-    .hero-in {
-      max-width: 900px;
-      margin: auto;
+      padding: 80px 0 120px;
     }
 
     .eyebrow {
-      color: #a9b1ca;
+      font-size: 13px;
+      letter-spacing: 4px;
       text-transform: uppercase;
-      letter-spacing: 2.5px;
-      font-size: 12px;
+      color: #91a3c7;
       margin-bottom: 25px;
     }
 
     h1 {
-      font-size: clamp(54px, 9vw, 108px);
-      line-height: 0.96;
-      letter-spacing: -5px;
-      margin-bottom: 32px;
+      font-size: clamp(48px, 8vw, 92px);
+      line-height: 1.02;
+      letter-spacing: -4px;
+      max-width: 1000px;
+      margin-bottom: 30px;
     }
 
-    .grad {
-      background: linear-gradient(90deg, #7d7aff, #00d9ff);
+    .gradient {
+      background: linear-gradient(90deg, #ffffff, #9db9ff, #d8b7ff);
       -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+      -webkit-text-fill-color: transparent;
     }
 
-    .lead {
-      color: #b6bdd0;
+    .hero p {
       max-width: 720px;
-      margin: 0 auto 38px;
+      color: #aeb8cc;
       font-size: 19px;
-    }
-
-    .lead strong {
-      color: white;
+      margin-bottom: 38px;
     }
 
     .buttons {
       display: flex;
-      justify-content: center;
       gap: 14px;
       flex-wrap: wrap;
+      justify-content: center;
     }
 
     .btn {
       display: inline-block;
       padding: 15px 26px;
-      border-radius: 12px;
+      border-radius: 9px;
       font-weight: 700;
-      transition: all 0.2s ease;
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
+      transition: .2s ease;
     }
 
     .primary {
-      background: linear-gradient(90deg, #665cff, #00c9ff);
-      color: white;
-      box-shadow: 0 10px 40px rgba(74, 112, 255, 0.25);
+      background: #ffffff;
+      color: #080b12;
+    }
+
+    .primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 35px rgba(255,255,255,.15);
     }
 
     .secondary {
-      border: 1px solid rgba(255,255,255,0.16);
-      background: rgba(255,255,255,0.05);
-      color: white;
+      border: 1px solid rgba(255,255,255,.22);
+      color: #ffffff;
     }
 
-    /* FEATURE CARDS */
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
-      padding: 40px 0 100px;
+    .secondary:hover {
+      background: rgba(255,255,255,.06);
     }
 
-    .card {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 20px;
-      padding: 30px;
-      backdrop-filter: blur(10px);
+    /* BRAND */
+
+    .brand-strip {
+      text-align: center;
+      padding: 60px 0;
+      border-top: 1px solid rgba(255,255,255,.08);
+      border-bottom: 1px solid rgba(255,255,255,.08);
     }
 
-    .card h3 {
-      font-size: 20px;
+    .brand-strip h2 {
+      font-size: clamp(28px, 4vw, 44px);
+      letter-spacing: 6px;
       margin-bottom: 12px;
     }
 
-    .card p {
-      color: #9ea6bc;
-      font-size: 15px;
+    .brand-strip p {
+      color: #8f9ab0;
     }
 
-    /* OFFER SECTION */
+    /* FEATURES */
 
-    .offer {
+    .section {
+      padding: 110px 0;
+    }
+
+    .section-title {
       text-align: center;
-      padding: 90px 30px;
-      margin-bottom: 70px;
-      border-radius: 28px;
-      background:
-        radial-gradient(circle at 50% 0%, rgba(85, 87, 255, 0.22), transparent 50%),
-        rgba(255,255,255,0.035);
-      border: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 60px;
     }
 
-    .offer h2 {
-      font-size: clamp(36px, 6vw, 64px);
-      letter-spacing: -2px;
-      margin-bottom: 15px;
+    .section-title h2 {
+      font-size: 42px;
+      margin-bottom: 12px;
     }
 
-    .offer p {
-      max-width: 620px;
-      margin: 0 auto 30px;
-      color: #aab1c5;
+    .section-title p {
+      color: #929db2;
     }
 
-    .email {
-      color: #cdd3e6;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: rgba(255,255,255,.035);
+      border: 1px solid rgba(255,255,255,.09);
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    .card span {
+      font-size: 25px;
+      display: block;
+      margin-bottom: 18px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #8f9ab0;
       font-size: 14px;
     }
 
-    /* FOOTER */
+    /* USE CASES */
 
-    .foot {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
-      border-top: 1px solid rgba(255,255,255,0.08);
-      padding: 28px 0 40px;
-      color: #737b92;
-      font-size: 13px;
+    .uses {
+      text-align: center;
+      color: #a6b0c3;
+      font-size: 17px;
+      word-spacing: 10px;
+      line-height: 2.2;
+      max-width: 900px;
+      margin: auto;
     }
 
-    /* MOBILE */
+    /* CTA */
 
-    @media (max-width: 800px) {
+    .cta {
+      text-align: center;
+      padding: 110px 30px;
+      margin: 40px 0 100px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 22px;
+      background:
+        radial-gradient(circle at top, rgba(99,126,255,.13), transparent 55%);
+    }
+
+    .cta h2 {
+      font-size: clamp(38px, 6vw, 65px);
+      margin-bottom: 18px;
+    }
+
+    .cta p {
+      max-width: 600px;
+      margin: 0 auto 32px;
+      color: #9ba6ba;
+    }
+
+    .email {
+      margin-top: 24px;
+      color: #8394b7;
+      font-size: 14px;
+    }
+
+    footer {
+      border-top: 1px solid rgba(255,255,255,.08);
+      padding: 30px 0 40px;
+      color: #69748a;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media(max-width: 850px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+    }
+
+    @media(max-width: 520px) {
       .grid {
         grid-template-columns: 1fr;
       }
 
-      h1 {
-        letter-spacing: -3px;
+      nav {
+        padding-top: 20px;
       }
 
       .hero {
-        min-height: auto;
-        padding: 90px 0;
+        padding-top: 50px;
       }
 
-      .foot {
-        flex-direction: column;
+      .hero p {
+        font-size: 17px;
       }
     }
   </style>
@@ -244,136 +287,167 @@
 
 <body>
 
-  <div class="wrap">
+<div class="container">
 
-    <nav class="nav">
-      <div class="brand">REASONOVA.SI</div>
-      <div class="pill">DOMAIN FOR SALE</div>
-    </nav>
+  <nav>
+    <div class="logo">REASONOVA.SI</div>
+    <div class="sale-badge">DOMAIN FOR SALE</div>
+  </nav>
 
+  <main>
 
     <section class="hero">
 
-      <div class="hero-in">
-
-        <div class="eyebrow">
-          Premium technology domain available for acquisition
-        </div>
-
-        <h1>
-          Reasoning.<br>
-          <span class="grad">Intelligence.</span><br>
-          What's next.
-        </h1>
-
-        <p class="lead">
-          <strong>Reasonova.si</strong> combines
-          <em>Reason</em> with <em>Nova</em> — a memorable,
-          future-facing identity for AI reasoning, intelligent systems,
-          research, automation and next-generation technology.
-        </p>
-
-        <div class="buttons">
-
-          <a
-            class="btn primary"
-            href="mailto:nbhusal875@gmail.com?subject=Offer%20for%20Reasonova.si"
-          >
-            Make an Offer
-          </a>
-
-          <a
-            class="btn secondary"
-            href="mailto:nbhusal875@gmail.com?subject=Inquiry%20about%20Reasonova.si"
-          >
-            Inquire
-          </a>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <section class="grid">
-
-      <div class="card">
-        <h3>AI-native positioning</h3>
-
-        <p>
-          A brandable name suited to reasoning engines,
-          intelligent infrastructure and advanced AI products.
-        </p>
-      </div>
-
-
-      <div class="card">
-        <h3>Distinctive & memorable</h3>
-
-        <p>
-          Reason + Nova communicates intelligence,
-          discovery and the arrival of something new.
-        </p>
-      </div>
-
-
-      <div class="card">
-        <h3>Built for what's next</h3>
-
-        <p>
-          A flexible identity for startups, research labs,
-          autonomous systems and emerging technology.
-        </p>
-      </div>
-
-    </section>
-
-
-    <section class="offer">
-
       <div class="eyebrow">
-        Premium domain acquisition
+        Premium Domain Available for Acquisition
       </div>
 
-      <h2>
-        Acquire Reasonova.si
-      </h2>
+      <h1>
+        Reasoning meets the
+        <span class="gradient">Super Intelligence era.</span>
+      </h1>
 
       <p>
-        This domain is privately owned and available for acquisition.
-        Serious offers and partnership inquiries are welcome.
+        A distinctive digital identity for AI reasoning, intelligent agents,
+        advanced research and the next generation of intelligent technology.
       </p>
 
-      <a
-        class="btn primary"
-        href="mailto:nbhusal875@gmail.com?subject=Offer%20for%20Reasonova.si&body=Hello%2C%0A%0AI%20am%20interested%20in%20acquiring%20Reasonova.si.%0A%0AMy%20offer%3A%20%24%0AName%3A%20%0ACompany%3A%20%0A%0AThank%20you."
-      >
-        Submit an Offer
-      </a>
+      <div class="buttons">
 
-      <p style="margin-top: 26px; margin-bottom: 0;">
-        <span class="email">
-          Acquisition inquiries: nbhusal875@gmail.com
-        </span>
-      </p>
+        <a class="btn primary"
+           href="mailto:universaldomain01@gmail.com?subject=Offer%20for%20Reasonova.si">
+          MAKE AN OFFER →
+        </a>
+
+        <a class="btn secondary"
+           href="mailto:universaldomain01@gmail.com?subject=Inquiry%20about%20Reasonova.si">
+          CONTACT OWNER
+        </a>
+
+      </div>
 
     </section>
 
+  </main>
 
-    <footer class="foot">
+</div>
 
-      <span>
-        © 2026 Reasonova.si
-      </span>
 
-      <span>
-        Domain offered for sale. No affiliation with similarly named businesses.
-      </span>
+<section class="brand-strip">
 
-    </footer>
+  <div class="container">
+
+    <h2>REASON + NOVA + SI</h2>
+
+    <p>
+      Reasoning. Innovation. Intelligence.
+    </p>
 
   </div>
+
+</section>
+
+
+<div class="container">
+
+  <section class="section">
+
+    <div class="section-title">
+
+      <h2>A name built for what's next.</h2>
+
+      <p>
+        Distinctive enough to become a brand. Relevant enough to define a category.
+      </p>
+
+    </div>
+
+    <div class="grid">
+
+      <div class="card">
+        <span>◆</span>
+        <h3>Brandable</h3>
+        <p>
+          Memorable, distinctive and easy to pronounce across international markets.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>◈</span>
+        <h3>AI Relevant</h3>
+        <p>
+          Naturally positioned around reasoning, intelligence and advanced AI systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>↗</span>
+        <h3>Future Facing</h3>
+        <p>
+          Suitable for intelligent agents, reasoning models, research or emerging technology.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>SI</span>
+        <h3>Powerful Extension</h3>
+        <p>
+          Slovenia's .si domain with a compelling branding association
+          with “SI” and Super Intelligence.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="section">
+
+    <div class="section-title">
+      <h2>One name. Multiple possibilities.</h2>
+    </div>
+
+    <div class="uses">
+      AI REASONING • INTELLIGENT AGENTS • AI RESEARCH •
+      ADVANCED TECHNOLOGY • MACHINE INTELLIGENCE •
+      NEXT-GENERATION SYSTEMS
+    </div>
+
+  </section>
+
+
+  <section class="cta">
+
+    <div class="eyebrow">DOMAIN ACQUISITION</div>
+
+    <h2>Build the future on Reasonova.si</h2>
+
+    <p>
+      Reasonova.si is privately owned and currently available for acquisition.
+      Serious offers and acquisition enquiries are welcome.
+    </p>
+
+    <a class="btn primary"
+       href="mailto:universaldomain01@gmail.com?subject=Offer%20for%20Reasonova.si&body=Hello,%0D%0A%0D%0AI%20am%20interested%20in%20acquiring%20Reasonova.si.%0D%0A%0D%0AOffer:%20%0D%0AName:%20%0D%0ACompany:%20">
+      SUBMIT AN OFFER →
+    </a>
+
+    <div class="email">
+      universaldomain01@gmail.com
+    </div>
+
+  </section>
+
+</div>
+
+
+<footer>
+  <div class="container">
+    © 2026 Reasonova.si · Domain offered for sale ·
+    No affiliation with similarly named businesses.
+  </div>
+</footer>
 
 </body>
 </html>
